@@ -38,10 +38,12 @@
 - The frames for the 360 are currently located at http://apiqe.com/wp-content/themes/platformbase/images/products/ (in the WP theme of the old site). This should be updated at some point!
 	- The name of each frame is generated through a for loop for each product, like so:
 	
-		for(i=373;i<=422;i++) {
-			var name = "560-crp-25june11_apiqe_01." + i + ".jpg";
-			image_set.universal.push(name);
-		}
+	`
+	for(i=373;i<=422;i++) {
+		var name = "560-crp-25june11_apiqe_01." + i + ".jpg";
+		image_set.universal.push(name);
+	}
+	`
 
 ## Useful Links
 1. Shopify Wikie: http://wiki.shopify.com/
