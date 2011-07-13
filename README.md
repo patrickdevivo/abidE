@@ -44,6 +44,8 @@
 		image_set.universal.push(name);
 	}
 	```
+	
+	and links are generated to each image and stored in an array. The array is then accessed by the jQuery reel plugin to fetch all the frames.
 
 ## Useful Links
 1. Shopify Wikie: http://wiki.shopify.com/
