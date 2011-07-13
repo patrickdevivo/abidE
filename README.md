@@ -1,4 +1,4 @@
-# Apiqe Shopify
+# Shopify
 - `360/` - is 360 html/css/js, jQuery reel plugin + a bunch of frames
 - `Animation/` - is an After Effects file...playing around with bubbles
 - `Shopify/` - is the Shopify theme
