@@ -34,6 +34,7 @@
 
 ## Useful Links
 
-1. Shopify Templating: http://wiki.shopify.com/Liquid
-2.  
+1. Shopify Wikie: http://wiki.shopify.com/
+2. jQuery Reel Plugin (360): http://jquery.vostrel.cz/reel
+3. jQuery FancyBox: http://fancybox.net/
 
