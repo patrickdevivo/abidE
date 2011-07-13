@@ -1,9 +1,9 @@
 # Apiqe Shopify
-- 360/ - is 360 html/css/js, jQuery reel plugin + a bunch of frames
-- Animation/ - is an After Effects file...playing around with bubbles
-- Shopify/ - is the Shopify theme
-- bubbles/ - is html/css/js of bubble effect (HTML5, canvas, paperjs)
-- whatever/ - is just a dump of whatever...
+- `360/` - is 360 html/css/js, jQuery reel plugin + a bunch of frames
+- `Animation/` - is an After Effects file...playing around with bubbles
+- `Shopify/` - is the Shopify theme
+- `bubbles/` - is html/css/js of bubble effect (HTML5, canvas, paperjs)
+- `whatever/` - is just a dump of whatever...
 
 ## General Theme Management
 - Use TextMate + Shopify TextMate Bundle to edit and reupload theme files (<http://wiki.shopify.com/Shopify_Textmate_Bundle>)
@@ -35,6 +35,13 @@
 ### Product 360
 - The "VIEW 3D" link for 360 products is in the product description along with the image that gets replaced by the jQuery reel plugin with the 360. The jQuery that handles the 360 has two parts: the lightbox (fancybox plugin: <http://fancybox.net/>) and the actual 360 frame loader (reel plugin: <http://jquery.vostrel.cz/reel>). All the markup (HTML) for the 360 is in the product description (accessible via Shopify admin).
 - The jQuery which executes the lightbox and 3D is in the theme file 'layout/theme.liquid'
+- The frames for the 360 are currently located at http://apiqe.com/wp-content/themes/platformbase/images/products/ (in the WP theme of the old site). This should be updated at some point!
+	- The name of each frame is generated through a for loop for each product, like so:
+	
+	for(i=373;i<=422;i++) {
+		var name = "560-crp-25june11_apiqe_01." + i + ".jpg";
+		image_set.universal.push(name);
+	}
 
 ## Useful Links
 1. Shopify Wikie: http://wiki.shopify.com/
