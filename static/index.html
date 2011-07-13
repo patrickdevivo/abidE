@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<title>Apiqe</title>
+
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="screen"></div>
+<div id="loading"></div>
+
+<div id="wrapper">
+	<div id="header">
+		<a href="/"><img id="logo" src="images/logo.png" /></a>
+		<img id="tagline" src="images/tagline.png" />
+		<div id="contact">
+		<span><a href="/contact">info@apiqe.com</a></span>
+		<span>1.800.765.3848</span>
+		</div>
+	</div>
+
+	<div id="banner">
+		<div class="slide">
+			<img class="left" src="images/home.left.png" />
+			<img id="animation" class="right" src="images/animation.gif" />
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div id="content">
+	
+	</div>
+</div>
+
+<div id="footer">
+	<p>© 2011 Eviva Concepts, Inc.1605 Lockness Place, Torrance, CA 90501</p>
+</div>
+
+
+<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js'></script>
+
+
+<script type="text/javascript" src='js/main.js'></script>
+
+    
+<script type="text/javascript">
+//if Google CDN fails
+if (typeof jQuery == 'undefined' || typeof jQuery.ui == 'undefined') {
+	document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+	document.write(unescape("%3Cscript src='js/jquery-ui.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+
+</body>
+</html>

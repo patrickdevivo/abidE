@@ -1,0 +1,50 @@
+{% include 'product' %}
+
+<script type="text/javascript" src='http://apiqe.com/360/js/disable.text.select.pack.js'></script>
+<script type="text/javascript" src='http://apiqe.com/360/js/mousewheel.js'></script>
+<script type="text/javascript" src='http://apiqe.com/360/js/reel.js'></script>
+
+<script type="text/javascript">
+var image_set = {home: [], universal: []};
+
+//generate home file names
+for(i=1;i<=100;i++) {
+	i = i + "";
+	if(i.length === 1) {
+		var out_index = "0" + i;
+	}
+	else if(i.length === 3) {
+		var out_index = "00";
+	}
+	else {
+		var out_index = i + "";
+	}
+	var name = "42026JUNE11_apiqehome_01_turntable429_" + out_index + ".jpg";
+	image_set.home.push(name);
+}
+
+//generate universal file names
+for(i=373;i<=422;i++) {
+	var name = "560-crp-25june11_apiqe_01." + i + ".jpg";
+	image_set.universal.push(name);
+}
+
+jQuery(document).ready(function(){
+	jQuery('#home_360').reel({
+		speed: .15
+		,path: "http://apiqe.com/wp-content/themes/platformbase/images/products/home_sequence/"
+		,images: image_set.home
+		,opening: 5
+	});
+	
+	jQuery('#universal_360').reel({
+		path: "http://apiqe.com/wp-content/themes/platformbase/images/products/universal_sequence/"
+		,images: image_set.universal
+		,loops: false
+		,directional: true
+		,frame: 5
+	});
+});
+</script>
+
+<img id="home_360" src="http://apiqe.com/360/images/sequence/42026JUNE11_apiqehome_01_turntable429_00.jpg" width="560px" height="400px" />
