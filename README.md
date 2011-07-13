@@ -1,9 +1,9 @@
 # Apiqe Shopify
-360/ - is 360 html/css/js, jQuery reel plugin + a bunch of frames
-Animation/ - is an After Effects file...playing around with bubbles
-Shopify/ - is the Shopify theme
-bubbles/ - is html/css/js of bubble effect (HTML5, canvas, paperjs)
-whatever/ - is just a dump of whatever...
+- 360/ - is 360 html/css/js, jQuery reel plugin + a bunch of frames
+- Animation/ - is an After Effects file...playing around with bubbles
+- Shopify/ - is the Shopify theme
+- bubbles/ - is html/css/js of bubble effect (HTML5, canvas, paperjs)
+- whatever/ - is just a dump of whatever...
 
 ## General Theme Management
 
