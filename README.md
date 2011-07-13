@@ -10,6 +10,7 @@
 - The current theme is a customized version of the Couture theme: <http://themes.shopify.com/themes/couture/styles/arioso>
 - Assets are stored on the Shopify CDN, so be careful about uploading images/css/js, it might take a while for changes to show up on the live site (unless you upload using different file names)
 - Theme settings can be managed in the Shopify admin. Theme settings are controlled in the `Shopify/config/settings.html` file, see Shopify documentation for more info: <http://wiki.shopify.com/Theme_Settings>. Theme settings are stored in `Shopify/config/settings_data.json`
+- *Most changes can be found in the main layout file /layouts/theme.liquid*
 
 ### Header
 - Logo should be 980px wide. A `div` with `id=grayness` is set and positioned via coordinates to make gray background the full page width - try not to play around with the header too much, if so, use the current logo image as a starting template and try to avoid big changes
